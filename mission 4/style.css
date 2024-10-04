@@ -1,0 +1,97 @@
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kalnia Glaze", serif;
+    background-color: aquamarine;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh
+}
+
+.section {
+    max-width: 780px;
+    margin: 50px auto;
+    background: skyblue;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    border:5px solid #3388CC;
+    border-radius: 5px;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.personal-info {
+    margin-left: 20px;
+}
+
+.personal-info h1 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #333;
+}
+
+.personal-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: black;
+}
+
+.section2{
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #333;
+    border:5px solid #3388CC;
+    border-radius: 5px;
+}
+
+.section3{
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #333;
+    border:5px solid #3388CC;
+    border-radius: 5px;
+}
+
+.section4{
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #333;
+    border:5px solid #3388CC;
+    border-radius: 5px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.date {
+    font-weight: bold;
+    color: #555;
+    border:5px solid #3388CC;
+    border-radius: 5px;
+}
+
+.description {
+    width: 75%;
+    text-align: left;
+    color: black;
+    border: 5px solid #3388CC;
+    border-radius: 5px;
+}
